@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+
+#menu{
+    background-color: #555555;
+    height: 64px;
+    display: flex;
+    align-items: center; 
+    color: white;
+}
+
+.logo{
+    width: 25%;
+    float: left;
+    font-family: tahoma;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.opciones{
+    width: 75%;
+    float: left;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opciones span:hover{
+    cursor: pointer; 
+    color: white;
+  	color: #007fff;
+}
+
+#banner{
+    height: 400px;
+}
+
+#banner img{
+    height: (100vh-64px);
+    width: 100%;
+    box-shadow: rgb(255, 255, 255) 0px 4px 4px 0px, rgb(253, 252, 252) 0px 0px 4px 0px;
+}
+
+#contenido{
+    background-image: url("fondo8.jpg");
+    height: calc(100vh);
+}
+
+
+
+#pie{
+    background-color: black;
+    height: 120px;
+    color: white;
+}
