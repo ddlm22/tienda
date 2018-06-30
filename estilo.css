@@ -39,7 +39,7 @@ body{
 }
 
 #banner img{
-    height: (100vh-64px);
+    height: (100vh - 64px);
     width: 100%;
     box-shadow: rgb(255, 255, 255) 0px 4px 4px 0px, rgb(253, 252, 252) 0px 0px 4px 0px;
 }
@@ -47,9 +47,47 @@ body{
 #contenido{
     background-image: url("fondo8.jpg");
     height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#centrado{
+    height: 500px;
 }
 
 
+.iniciosesion-text{
+    height: 64px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    margin-bottom: 250px;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.datos{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.datos input{
+    width: 70%;
+}
+
+#chat{
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    bottom: 24px;
+    right: 24px;
+    position: fixed;
+    border-radius: 50%;
+}
 
 #pie{
     background-color: black;
